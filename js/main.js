@@ -63,7 +63,7 @@ $(document).ready(function() {
       });
 
       // Evening Quote
-    }else if (compare >= 19 && comapre <= 24) {
+    }else if (compare >= 19 && compare <= 24) {
       $.ajax({
         url:"http://quotes.rest/qod.json?category=life ",
         success: function(r){
