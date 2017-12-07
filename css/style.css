@@ -77,6 +77,10 @@ footer {
 /*******************************************/
 
 
+body {
+  background-image: url("../background.jpg");
+  background-size: cover;
+}
 
 button {
   height: 50px;
@@ -90,6 +94,9 @@ div {
   width: 100%;
   border: 1px solid black;
   margin:0% 0% 0% 0%;
+  background-color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
 }
 
 
