@@ -26,9 +26,7 @@ $(document).ready(function() {
           sound.autoPlay=false;
           sound.preLoad=true;
 
-  //When user clicks on the button do a condtional
 
-  $("button").on("click",function(){
     //Morning Quote
     if (compare > 5 && compare < 12) {
 
@@ -94,6 +92,5 @@ $(document).ready(function() {
         }
       })
     };
-  });
 
 });
